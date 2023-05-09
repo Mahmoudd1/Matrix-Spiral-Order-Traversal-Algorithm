@@ -1,12 +1,12 @@
 # Matrix-Spiral-Order-Traversal-Algorithm
 This is a Java implementation of the Matrix Spiral Order Traversal Algorithm, which is used to traverse a matrix in a spiral order, starting from the top-left corner and moving clockwise.
-## Example 1 
+## Sample Input and Output for Matrix Spiral Order Traversal
 Given an m x n matrix return all elements of the matrix in spiral order.
 Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 
 Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
-## Solution 
+## Algorithm Description
 This implementation uses a four-directional approach to traverse the matrix in a spiral order. We start by defining four variables to keep track of the boundaries of the matrix: left, right, up, and down. We then use a while loop to traverse the matrix in a spiral order, adding each element to a List<Integer> called mylist
  In each iteration of the loop, we use four for loops to traverse the matrix in four directions:
 - Traverse from left to right on the top row (up).
